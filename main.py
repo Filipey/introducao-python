@@ -1,0 +1,36 @@
+import inputsAndOutputs as io
+import loops as lo
+import conditionalCommands as cc
+import PooAndFunctions as pf
+from PooAndFunctions import Employee as emp
+
+io.calcArea()
+io.calcDownloadTime()
+io.calcInkValue()
+io.salaryCounter()
+io.farenheintToCelsius()
+io.brazilianRealToDolar()
+cc.calcImc()
+cc.calcIncomeTax()
+cc.fuelValue()
+cc.cashMachine()
+lo.biggerNumber()
+lo.readPerson()
+lo.sumAndAverage()
+lo.countPairAndOddNumbers()
+lo.primeNumber()
+lo.asteriskSquare()
+lo.asteriskTriangle()
+lo.listAllNotes()
+pf.calcPotency(2, 10)
+pf.onlyPositiveNumbers([1, -2, 3, -4, -5, 6, 7, -8, 9, -10])
+pf.reverseString("Python")
+pf.isPalindrome("arara")
+pf.isPalindrome("carro")
+pf.countCharOcurrency("arara", "a")
+pf.countCharOcurrency("pindamonhangaba", "a")
+pf.daysHoursMinutesToSeconds(1, 60, 10, 60)
+pf.countVowels("Alemanha")
+pf.calcMdc(12, 9)
+employee = emp("Filipe", 2500)
+print(employee.name, employee.salary)
